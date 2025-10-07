@@ -33,7 +33,7 @@ export const LoginForm = () => {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="login-form">
-          <h2>Login</h2>
+          <h2 style={{ color: "yellow" }}>Login</h2>
           {errorMessage && <p className="error-message">{errorMessage}</p>}
           <label>
             Username:
