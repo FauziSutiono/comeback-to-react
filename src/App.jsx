@@ -2,7 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
-import { LoginForm } from "./form/LoginForm";
+// import { LoginForm } from "./form/LoginForm";
+
 // import { UserList } from "./components/UserList";
 // import { UserDashboard } from "./dashboard/UserDashboard";
 
@@ -83,10 +84,14 @@ import { LoginForm } from "./form/LoginForm";
 // import { users } from "./dummy_user/users";
 // import { UserList } from "./dummy_user/UserList";
 
-import { TodoApp } from "./todo/TodoApp";
+// import { TodoApp } from "./todo/TodoApp";
+
+// import { CategoryList } from "./nested_list/CategoryList";
+import { RecursiveCategory } from "./nested_list_2/RecursiveCategory";
+import { nestedCategories } from "./nested_list_2/nestedCategories";
 
 const App = () => {
-  return <TodoApp />;
+  return <RecursiveCategory categories={nestedCategories} />;
 };
 
 export default App;
