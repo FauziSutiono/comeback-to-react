@@ -87,11 +87,17 @@ import "./App.css";
 // import { TodoApp } from "./todo/TodoApp";
 
 // import { CategoryList } from "./nested_list/CategoryList";
-import { RecursiveCategory } from "./nested_list_2/RecursiveCategory";
-import { nestedCategories } from "./nested_list_2/nestedCategories";
+// import { RecursiveCategory } from "./nested_list_2/RecursiveCategory";
+// import { nestedCategories } from "./nested_list_2/nestedCategories";
+
+// import { LazyLoading } from "./lazy_loading/LazyLoading";
+// import { VirtualizedList } from "./lazy_loading/Virtualization";
+
+// import { ProductList } from "./product_list/ProductList";
+// import { ShoppingCartPage } from "./product_list/ShoppingCartPage";
 
 const App = () => {
-  return <RecursiveCategory categories={nestedCategories} />;
+  return <h1>hello</h1>;
 };
 
 export default App;
