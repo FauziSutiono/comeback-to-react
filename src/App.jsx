@@ -101,9 +101,10 @@ import "./App.css";
 
 // import { DynamicButton } from "./dynamic_button/DynamicButton";
 import { Timer } from "./timer_component/Timer";
+import { ShoppingCart } from "./shopping_cart_with_redux_toolkit/ShoppingCart";
 
 const App = () => {
-  return <Timer />;
+  return <ShoppingCart />;
 };
 
 export default App;
