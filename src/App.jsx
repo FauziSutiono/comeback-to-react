@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "./App.css";
+
 // import { LoginForm } from "./form/LoginForm";
 
 // import { UserList } from "./components/UserList";
@@ -91,13 +92,18 @@ import "./App.css";
 // import { nestedCategories } from "./nested_list_2/nestedCategories";
 
 // import { LazyLoading } from "./lazy_loading/LazyLoading";
-// import { VirtualizedList } from "./lazy_loading/Virtualization";
+// import { VirtualizedList } from "./lazy_loading/VirtualizedList";
 
 // import { ProductList } from "./product_list/ProductList";
 // import { ShoppingCartPage } from "./product_list/ShoppingCartPage";
 
+// import { ShoppingCart } from "./shopping_cart_page/ShoppingCart";
+
+// import { DynamicButton } from "./dynamic_button/DynamicButton";
+import { Timer } from "./timer_component/Timer";
+
 const App = () => {
-  return <h1>hello</h1>;
+  return <Timer />;
 };
 
 export default App;
