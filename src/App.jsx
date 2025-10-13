@@ -1,6 +1,7 @@
 // import { useState } from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+
 import "./App.css";
 
 // import { LoginForm } from "./form/LoginForm";
@@ -100,11 +101,26 @@ import "./App.css";
 // import { ShoppingCart } from "./shopping_cart_page/ShoppingCart";
 
 // import { DynamicButton } from "./dynamic_button/DynamicButton";
-import { Timer } from "./timer_component/Timer";
-import { ShoppingCart } from "./shopping_cart_with_redux_toolkit/ShoppingCart";
+// import { Timer } from "./timer_component/Timer";
+// import { ShoppingCart } from "./shopping_cart_with_redux_toolkit/ShoppingCart";
 
+// import { ThemedButton, ThemeProvider } from "./context_API/ThemeProvider";
+// import { ControlledExample } from "./form_handling_&_validation/ControlledExample";
+// import { UncontrolledExample } from "./form_handling_&_validation/UncontrolledExample";
+// import { BlurFocusValidationExample } from "./form_handling_&_validation/BlurFocusValidationExample";
+// import { EventObjectExample } from "./form_handling_&_validation/EventObjectExample";
+// import { BasicValidation } from "./form_handling_&_validation/BasicValidation";
+// import { PasswordStrength } from "./form_handling_&_validation/PasswordStrength";
+// import { CheckoutForm } from "./form_handling_&_validation/CheckoutForm";
+
+// import { AppProduct } from "./routing/ProductDetails";
+// import { BlogApp } from "./routing/BlogApp";
+// import { BrowserRouter } from "react-router-dom";
+// import { Security } from "./security/Security";
+import { MaskedInput } from "./security/MaskedInput";
+import FetchExample from "./api/FetchExample";
 const App = () => {
-  return <ShoppingCart />;
+  return <FetchExample />;
 };
 
 export default App;
