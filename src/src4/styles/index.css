@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "interRegular";
+  src: url(../fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "interBold";
+  src: url(../fonts/Inter_18pt-Bold.ttf);
+}
+
+:root {
+  --color-email: blue;
+  --color-button: white;
+  --color-bg-button: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 500px;
+}
+
+.header {
+  text-align: center;
+}
+
+.title-header,
+.title-list {
+  font-family: "interBold", sans-serif;
+}
+
+.title-email,
+.li,
+.add-task {
+  font-family: "interRegular", sans-serif;
+}
+
+.title-header {
+  margin-top: 20px;
+}
+
+.title-email {
+  margin-top: 20px;
+  color: var(--color-email);
+}
+
+.dashboard {
+  background-color: whitesmoke;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-list {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ul {
+  margin-top: 20px;
+}
+
+.li {
+  list-style-type: none;
+  display: flex;
+  background-color: white;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.li button {
+  background-color: whitesmoke;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add-task {
+  margin-top: 30px;
+  color: var(--color-button);
+  background-color: var(--color-bg-button);
+  padding: 10px;
+  align-self: center;
+  cursor: pointer;
+}

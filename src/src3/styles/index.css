@@ -1,0 +1,100 @@
+:root {
+  --color-background: #242424;
+  --color-text: white;
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url("../fonts//Inter_18pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url(../fonts//Inter_18pt-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  color: var(--color-text);
+}
+
+.title-list {
+  text-align: center;
+  font-family: "InterBold";
+  margin: 20px 0;
+}
+
+.list-name {
+  font-family: "InterBold";
+}
+
+.list-email,
+.list-state,
+.button {
+  font-family: "InterRegular";
+}
+
+.list-card {
+  width: 300px;
+  background-color: var(--color-background);
+  padding: 20px;
+}
+
+.list-name {
+  margin-bottom: 5px;
+}
+
+.list-email {
+  margin-bottom: 5px;
+}
+
+.list-state {
+  margin-bottom: 5px;
+}
+
+.button {
+  margin-bottom: 5px;
+  font-size: 18px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.deactivate {
+  background-color: red;
+}
+
+.activate {
+  background-color: green;
+}
+
+@media (max-width: 1248px) {
+  .user-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 922px) {
+  .user-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 618px) {
+  .user-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
